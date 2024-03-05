@@ -1,0 +1,88 @@
+header {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #FFF;
+
+    // example
+
+    .nav {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        align-items:center;
+        padding: 15px;
+
+        div{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            label{
+                width: 400px;
+                display: flex;
+                align-items: center;
+                background: #E3E6EB;
+                padding: 5px;
+                border-radius: 30px;
+                padding-left: 15px;
+
+                i{
+                    padding-top: 5px;
+                }
+
+                input{
+                    width: 350px;
+                    padding: 5px;
+                    border: none;
+                    outline: none !important;
+                    background: transparent;
+                }
+            }
+        }
+
+        &__logo {
+            font-style: 24px;
+            cursor: pointer;
+        }
+
+        &__list {
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+            align-items: center;
+
+            li{
+                i{
+                    color: yellow;
+                    font-size: 32px;
+                    cursor: pointer;
+                }
+                button{
+                    padding: 7px 15px;
+                    border: none;
+                    background: transparent;
+                    color: white;
+                    background: #0D75FF;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+        button{
+            padding: 10px;
+            color: white;
+            background: #A6B0C3;
+            border: none;
+            border-radius:4px;
+        }
+    }
+}
+

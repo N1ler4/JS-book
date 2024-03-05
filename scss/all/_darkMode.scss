@@ -1,0 +1,36 @@
+.darkmode{
+    background: #444;
+    color: white;
+
+    header{
+        background: rgb(11, 11, 36);
+
+        nav{
+            div{
+                label{
+                    background: #000;
+
+                    input{
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+    aside{
+        background: rgb(11, 11, 36);
+    }
+    main{
+        background: rgb(19, 19, 37);
+
+        .cards{
+            .card{
+                background: rgb(12, 12, 31);
+
+                h3{
+                    color: white;
+                }
+            }
+        }
+    }
+}

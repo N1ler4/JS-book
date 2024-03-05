@@ -1,0 +1,52 @@
+aside{
+    padding: 10px;
+    width: 280px;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #FFF;
+    h2{
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+    p{
+        width: 260px;
+        margin-left: 30px;
+    }
+    li{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-right: 0;
+        padding: 5px;
+
+
+        &:hover{
+            border-radius:4px;
+            background: #F8FAFD;
+        }
+
+        h5{
+            font-weight: 400;
+            font-size: 24px;
+        }
+        span{
+            color: #757881;
+        }
+    }
+    .aside-icons{
+        display: flex;
+        gap: 10px;
+    }
+}
+.bi-book{
+    color: #75828A;
+}
+.bi-backspace{
+    color: #FF6231;
+}
+.bi{
+    cursor: pointer;
+}
